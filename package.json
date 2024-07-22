@@ -2,20 +2,20 @@
   "name": "practiceparcel",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://PanasenkoValeriy.github.io/practiceparcel",
+  "homepage": "https://pla1nn.github.io/hw-8",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /practiceparcel/"
+    "build": "parcel build src/*.html --public-url /hw-8/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanasenkoValeriy/practiceparcel.git"
+    "url": "git+https://github.com/pla1nn/hw-8.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PanasenkoValeriy/practiceparcel/issues"
+    "url": "https://github.com/pla1nn/hw-8/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
