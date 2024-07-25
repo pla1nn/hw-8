@@ -1,7 +1,7 @@
 import users from './data';
-import userTemplate from './templates/userTemplate.hbs';  // Імпорт шаблону
+import userTemplate from './templates/userTemplate.hbs';
 
-const template = userTemplate;
-const context = { users };
-const html = template(context);
-document.body.innerHTML += html;
+const list = document.querySelector('.list');
+
+const markUp = userTemplate(users);
+list.insertAdjacentHTML('beforeend', markUp);

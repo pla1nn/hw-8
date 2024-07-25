@@ -1,12 +1,7 @@
-<ul id="first-list">
-    <li class="first-item">ID:</li>
-    <li class="first-item">Name:</li>
-    <li class="first-item">Age:</li>
-</ul>
-{{#each users}}
-<ul id="second-list">
-    <li class="second-item">{{id}}</li>
-    <li class="second-item">{{name}}</li>
-    <li class="second-item">{{age}}</li>
-</ul>
+{{#each this}}
+    <li class="second-item">
+        <img src="{{img}}" alt="{{name}}">
+        <h2>{{name}}</h2>
+        <p>{{age}}</p>
+    </li>
 {{/each}}
